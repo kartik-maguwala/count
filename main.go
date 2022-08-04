@@ -16,5 +16,5 @@ func main() {
 	for _, line := range lines {
 		counts[line]++
 	}
-	fmt.Println(lines)
+	fmt.Println(counts)
 }
